@@ -1,24 +1,24 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "sample-website",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Portfolio project deployed using GitHub Pages via Parcel bundler.",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://VS-Abhijith.github.io/sample-website",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{VS-Abhijith}.github.io/{sample-website}'",
+    "build-gh": "parcel build --public-url https://VS-Abhijith.github.io/sample-website",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/VS-Abhijith/sample-website.git"
   },
-  "author": "Microsoft",
+  "author": "VS Abhijith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/VS-Abhijith/sample-website/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
